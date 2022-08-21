@@ -1,0 +1,123 @@
+* {
+  border: none;
+  padding: 10px;
+  gap: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-top: -20px;
+  margin-bottom: 50px;
+  display: inline;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFound {
+font-size: 20em;
+font-weight: bolder;
+font-family: monospace;
+}
+
+.notFoundP{
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: monospace;
+    margin-bottom: -50px;
+}
+
+.acertou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+input {
+  text-align: center;
+  background: #e7e7e7;
+  font-weight: bold;
+  font-size: large;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #d4a6a6;
+  font-weight: bold;
+  font-size: large;
+}
+body {
+  background: #111111;
+}
+
+.hidden {
+  display: none;
+}
+
+.receber {
+  padding: 15px 30px;
+  /* margin-left: -70px; */
+  font-size: 1.4em;
+  border: dashed 1px #0000008f;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.dica {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: auto;
+}
+
+@keyframes fade {
+  0%,100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fade 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fadeIn{
+    animation: fadeIn 2s;
+  }
+
+  @media(max-width:690px) {
+    h1
+  }
+
+  .fadeE {
+    animation: fade 5s;
+  }
